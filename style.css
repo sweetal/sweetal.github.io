@@ -1,0 +1,165 @@
+/*This is how to comment in CSS*/
+/*This section formats Heading 1*/
+
+h1 {
+  color: black;
+  line-height: 1.5;
+  text-align: center;
+  font-family: serif;
+  font-family: 'Lora', serif;
+  font-style: oblique;
+  font-size: 40px;
+  border-style: double;
+  border-width: 5px;
+}
+
+
+h2 {
+  color: black;
+  font-style: normal;
+  font-size: 30px
+}
+
+
+h3 {
+  color: darkred;
+  text-align: center;
+  font-style: italic;
+  font-size: 30px
+}
+
+
+/*This section formats the body. 1*/
+body {
+  background-color: #DCDCDC;
+  font-family: serif;
+  font-family: 'Crimson Text', serif;
+/*  font-family: 'Shadows Into Light', cursive; 1*/
+  font-size: 20px;
+}
+
+nav {
+  width: 100%;
+  background-color: white;
+}
+
+ul.navigation {
+  list-style: none;
+  margin: auto;
+  margin-top: 0;
+  width: 40%;
+  height: 35 px;
+}
+
+ul.navigation li {
+  display: inline-block;
+  float: left;
+}
+
+ul.navigation a {
+  color: black;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+
+ul.navigation a:hover {
+  background-color: black;
+  color: white;
+}
+
+#mission {
+  color: white;
+  weight: bold;
+  border: 6px solid white;
+}
+
+#SessionLength {
+  font-size: 40px;
+}
+
+#ExecutiveCoaching {
+  color: green;
+}
+
+.rate {
+  color: darkred;
+}
+
+
+div {
+  display: inline;
+  width: 20%;
+  float: right;
+}
+
+/*This section changes the background color of the paragraphs
+p {background-color: rgb(100,30,30)
+}
+1*/
+
+
+
+::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background-color: rgba(255,0,0,.5);
+  box-shadow: 0 0 1px rgba(255,255,255,.5);
+}
+
+
+
+::-moz-scrollbar {
+  -webkit-appearance: none;
+  width: 7px;
+}
+
+::-moz-scrollbar-thumb {
+  border-radius: 4px;
+  background-color: rgba(255,0,0,.5);
+  box-shadow: 0 0 1px rgba(255,255,255,.5);
+}
+
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+video {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid black;
+  title: "My Girls"
+}
+
+
+table, th, td {
+  /*border: 1px solid black;1*/
+  border-collapse: collapse;
+  width: 25%;
+  height: 20px;
+  padding: 5px;
+  margin-left: 250px;
+}
+
+
+table td {
+  text-align: right;
+}
+
+
+p {
+  border-top: 10px solid blue;
+  padding: 3px;
+  margin: 10px;
+  height: 100px;
+  overflow: auto;
+}
